@@ -5,7 +5,6 @@ description: 快速找到您需要的emoji
 excerpt: 快速找到您需要的emoji
 tags: 
   - emoji
-
 ---
 
 # 轻松找到 emoji
@@ -20,7 +19,15 @@ tags:
 
 下面推荐几个可以快速查找 `emoji` 的网站，**均可一键复制粘贴到 markdown 编辑器**（需要编辑器支持）
 
-## [找到你心仪的emoji](https://emoji.dashgame.com/)
+
+
+## 找到你心仪的emoji
+
+
+
+<a class="to-url" target="_blank" href="https://emoji.dashgame.com/">直达链接</a>
+
+
 
 **特点**
 
@@ -33,7 +40,13 @@ tags:
 
 
 
-## [Emoji表情大全](https://emoji6.com/emojiall/)
+## Emoji表情大全
+
+
+
+<a class="to-url" target="_blank" href="https://emoji6.com/emojiall/">直达链接</a>
+
+
 
 **特点**
 
