@@ -145,7 +145,7 @@ export default defineConfig({
               script.defer = "";
               script.sync = "";
               script.src = "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js";
-              document.body.append(script);
+              document.body.appendChild(script);
               const link = document.createElement("link");
               link.rel = "stylesheet";
               link.href = "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css";
