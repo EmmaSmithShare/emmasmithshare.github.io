@@ -34,7 +34,7 @@ const posts = ref(data)
 const selectedTag = ref()
 
 if (typeof window !== "undefined") {
-    const selectedTag = ref(localStorage.getItem('tag'))
+    selectedTag.value = localStorage.getItem('tag')
 }
 
 
