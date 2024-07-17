@@ -51,13 +51,13 @@ export default defineConfig({
                 icon: {svg: social.x},
                 link: 'https://x.com/104070Share'
             },
-            {
-                icon: {svg: social.github},
-                link: 'https://github.com'
-            },
+            // {
+            //     icon: {svg: social.github},
+            //     link: 'https://github.com'
+            // },
             {
                 icon: {svg: social.telegram},
-                link: ''
+                link: 'https://t.me/share104070'
             }
         ],
         docFooter: {
