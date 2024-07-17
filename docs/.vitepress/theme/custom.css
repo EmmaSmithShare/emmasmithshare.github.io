@@ -4,8 +4,7 @@
 
 
 :root {
-    --vp-font-family-base: "Noto Sans SC", sans-serif;;
-
+    --vp-font-family-base: "Noto Sans SC", sans-serif;
 
     --vp-c-indigo-1: #31748f;
     --vp-c-indigo-2: #9ccfd8;
@@ -57,9 +56,25 @@
     display: none;
 }
 
-.vp-doc img{
+.vp-doc img {
     margin: 0 auto;
     border-radius: 8px;
+}
+
+.vp-doc .to-url {
+    display: inline-block;
+    background-color: #eb6f92;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.vp-doc .to-url:active,
+.vp-doc .to-url:hover,
+.vp-doc .to-url:link {
+    text-decoration: none;
+    color: #fff;
 }
 
 hr {
