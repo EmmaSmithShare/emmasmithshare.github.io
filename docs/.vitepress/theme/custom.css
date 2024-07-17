@@ -1,0 +1,73 @@
+/* 字体导入 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
+
+
+
+:root {
+    --vp-font-family-base: "Noto Sans SC", sans-serif;;
+
+
+    --vp-c-indigo-1: #31748f;
+    --vp-c-indigo-2: #9ccfd8;
+    --vp-c-indigo-3: #c4a7e7;
+    --menu-g-t: #908caa;
+
+    --104070-no-select-l: #f2f2f6;
+    --104070-selected-l: #31748f;
+
+    --104070-no-select-d: #2f2f33;
+    --104070-selected-d: #000;
+}
+
+
+/* 顶部菜单小标题样式 */
+.VPMenuGroup .title {
+    color: var(--menu-g-t);
+    margin-left: 10px;
+}
+
+.VPNavScreenMenuGroupSection .title {
+    color: var(--menu-g-t);
+    margin-left: 20px;
+}
+
+/* 文章格式 */
+/* 文章 h1 居中 */
+.vp-doc h1 {
+    text-align: center;
+}
+
+/* 表格宽度 */
+.vp-doc table {
+    display: table;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.vp-doc table td {
+    white-space: nowrap;
+}
+
+.vp-doc .table_p {
+    min-width: 100%;
+    overflow-x: auto;
+}
+
+.vp-doc h1 a::before {
+    display: none;
+}
+
+.vp-doc img{
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+hr {
+    border-top: .5px solid var(--vp-c-divider);
+    margin: 10px 0;
+}
+
+.divider-custom {
+    border-top: .5px solid var(--vp-c-divider);
+    margin: 10px 0;
+}

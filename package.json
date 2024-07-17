@@ -1,0 +1,23 @@
+{
+  "name": "104070",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "markdown-it-custom-attrs": "^1.0.2",
+    "vitepress": "^1.2.3"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
