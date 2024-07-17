@@ -31,11 +31,18 @@ const getTagPosts = (tag, posts) => {
 }
 
 const posts = ref(data)
-const selectedTag = ref(localStorage.getItem('tag'))
+const selectedTag = ref()
+
+if (typeof window !== "undefined") {
+    const selectedTag = ref(localStorage.getItem('tag'))
+}
+
 
 const filterPosts = (tag) => {
     selectedTag.value = tag
-    localStorage.setItem('tag', tag)
+    if (typeof window !== "undefined") {
+        localStorage.setItem('tag', tag)
+    }
 }
 
 /*
@@ -184,11 +191,11 @@ watch(selectedTag, (a) => {
             }
         }
 
-        .post-light{
+        .post-light {
             box-shadow: 0 0 10px rgba(196, 196, 196, 0.5);
         }
 
-        .post-dark{
+        .post-dark {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
     }

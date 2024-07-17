@@ -30,11 +30,19 @@ features:
 
 <script setup>
 import {onMounted} from 'vue';
+
 onMounted(()=>{
     const latter = document.querySelector('.main .text');
     latter.style.fontSize = '32px';
     latter.style.lineHeight = '1.5em';
-    latter.style.marginTop='15px'
+    latter.style.marginTop='15px';
+    
+     // 将 tag=全部 保存到 localStorage
+    if (!localStorage.getItem('tag')) {
+        localStorage.setItem('tag', '全部')
+    };
+
+   
 })
 
 </script>
