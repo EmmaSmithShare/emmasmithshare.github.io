@@ -1,6 +1,7 @@
 > [!NOTE]
-> 
+>
 > 感谢 [vueuse](https://vueuse.org/functions.html) 页面提供的设计灵感。
+>
 > 感谢 [vitepress](https://vitepress.dev/zh/) 开源
 
 ## frontmatter
