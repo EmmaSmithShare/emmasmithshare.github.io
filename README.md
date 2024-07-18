@@ -64,7 +64,6 @@ tags:
 
 | 参数      | 类型     | 说明                                |
 | --------- | -------- | ----------------------------------- |
-| `excerpt` | `string` | 摘要，用于归档或标签页，默认 `null` |
 | `tags`    | `string` | 标签                                |
 
 ### 示例
@@ -72,9 +71,8 @@ tags:
 ``` markdown
 ---
 title: 页面标题
-description: 这里是页面描述。
+description: 这里是页面描述/文章摘要。
 titleTemplate: false
-excerpt: 这里是文章摘要
 tags: 
   - 单个标签
   - 多个标签1

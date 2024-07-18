@@ -89,7 +89,7 @@ watch(selectedTag, (a) => {
                :class="isDark ? 'post-dark' : 'post-light'"
                :href="post.url">
                 <div class="title">{{ post.title }}</div>
-                <span class="excerpt">摘要：{{ post.excerpt ? post.excerpt : '暂无摘要...' }}</span>
+                <span class="excerpt">摘要：{{ post.description ? post.description : '暂无摘要...' }}</span>
             </a>
         </div>
     </main>
