@@ -8,7 +8,7 @@ export default createContentLoader('tools/*/*.md', {
                 url: item.url,
                 tags: item.frontmatter.tags ? item.frontmatter.tags : [],
                 // excerpt: item.frontmatter.excerpt ? item.frontmatter.excerpt : null,
-                description: item.frontmatter.excerpt ? item.frontmatter.excerpt : null,
+                description: item.frontmatter.description ? item.frontmatter.description : null,
             }
         })
     },
