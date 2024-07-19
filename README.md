@@ -54,7 +54,7 @@ pageClass: custom-class-name
 
 ``` markdown
 ---
-excerpt: 这里是文章摘要
+image: src | null
 tags: 
   - 单个标签
   - 多个标签1
@@ -62,9 +62,10 @@ tags:
 ---
 ```
 
-| 参数      | 类型     | 说明                                |
-| --------- | -------- | ----------------------------------- |
-| `tags`    | `string` | 标签                                |
+| 参数    | 类型             | 说明                                                         |
+| ------- | ---------------- | ------------------------------------------------------------ |
+| `tags`  | `string`         | 标签                                                         |
+| `image` | `string \| null` | 预览图，可用于 `x` 分享展示<br />**注意：支支持 png 或 jpg格式** |
 
 ### 示例
 
@@ -72,6 +73,7 @@ tags:
 ---
 title: 页面标题
 description: 这里是页面描述/文章摘要。
+image: http://xxx/xxx.png
 titleTemplate: false
 tags: 
   - 单个标签
