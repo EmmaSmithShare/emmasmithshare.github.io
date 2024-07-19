@@ -118,6 +118,14 @@ export default defineConfig({
     },
     head:[
         [
+            "script",
+            {
+                defer: '',
+                src:'https://cloud.umami.is/script.js',
+                "data-website-id":"eafaf19d-09b6-4795-a25c-574481e0114a",
+            }
+        ],
+        [
             "link",
             {
                 rel:"icon",
@@ -136,6 +144,6 @@ export default defineConfig({
             {
               src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js",
             },
-        ]
+        ],
     ]
 })
