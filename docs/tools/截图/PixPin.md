@@ -55,4 +55,4 @@ PixPin 的截图功能非常强大，它允许你自由选择截图区域或自�
 
 ## Pro版
 
-当前（2021-07-19）我没找到在哪里购买，但是作者已经把 Pro 功能给贴出来了，可以在 [PixPin会员](https://pixpinapp.com/start/member-features.html) 查看。
+当前（2024-07-19）我没找到在哪里购买，但是作者已经把 Pro 功能给贴出来了，可以在 [PixPin会员](https://pixpinapp.com/start/member-features.html) 查看。
