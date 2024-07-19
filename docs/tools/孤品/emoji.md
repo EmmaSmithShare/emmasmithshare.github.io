@@ -1,9 +1,8 @@
 ---
 title: 轻松找到 emoji
 titleTemplate: false
-description: 快速找到您需要的emoji
-excerpt: 快速找到您需要的emoji
-image: https://www.104070.xyz/logo/logo_light.svg
+description: 快速找到您需要的emoji，每个emoji都配有清晰的描述和英文名称。
+image: https://cdn.jsdelivr.net/gh/EmmaSmithShare/shareimage/emoji-x.webp
 tags: 
   - emoji
 ---

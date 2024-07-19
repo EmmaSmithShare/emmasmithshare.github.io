@@ -2,6 +2,7 @@
 title: Memo Card 精美的文字卡片
 titleTemplate: false
 description: 能够将文字内容转换成美观分享卡片的在线工具，适用于日常书摘、笔记和备忘录分享。
+image: https://cdn.jsdelivr.net/gh/EmmaSmithShare/shareimage/MemoCard-x.webp
 tags: 
   - 文字卡片
 ---

@@ -2,7 +2,7 @@
 title: Pixzip 图片压缩
 titleTemplate: false
 description: Pixzip 是一款快速、免费的图片压缩软件，支持 JPG / PNG / WebP / AVIF 等主流格式，支持 Windows 10+，macOS 11+ 操作系统。
-excerpt: 支持 JPG / PNG / WebP / AVIF 等主流格式，支持 Windows 10+，macOS 11+ 操作系统。
+image: https://cdn.jsdelivr.net/gh/EmmaSmithShare/shareimage/Pixzip%E8%BD%AF%E4%BB%B6%E9%A1%B5%E9%9D%A2-x.webp
 tags: 
   - 图片视频压缩
   - 软件
