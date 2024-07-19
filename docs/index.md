@@ -1,6 +1,10 @@
 ---
 layout: home
 
+title: 一〇四〇七〇
+titleTemplate: false
+description: 一个专注于分享互联网软件、图片和工具的资源平台。发现、学习、分享，让每一次访问都充满惊喜。
+
 hero:
   name: 一〇四〇七〇
   text: 互联网拾荒者<br>喜欢开宝箱
@@ -43,6 +47,7 @@ onMounted(()=>{
     };
 
    
+
 })
 
 </script>

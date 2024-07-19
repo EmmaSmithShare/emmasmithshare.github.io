@@ -3,6 +3,7 @@ title: 轻松找到 emoji
 titleTemplate: false
 description: 快速找到您需要的emoji
 excerpt: 快速找到您需要的emoji
+image: https://www.104070.xyz/logo/logo_light.svg
 tags: 
   - emoji
 ---
