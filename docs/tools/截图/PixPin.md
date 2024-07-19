@@ -12,21 +12,18 @@ tags:
 
 ![PixPin_官网-min](./assets/PixPin_官网-min.webp)
 
-|   网站   |                             链接                             |
-| :------: | :----------------------------------------------------------: |
-|   官网   | <a href="https://pixpinapp.com/" class="to-url" target="_blank">直达链接</a> |
-| 更新日志 | <a href="https://txc.qq.com/products/614512/change-log" class="to-url" target="_blank">直达链接</a> |
-| 意见反馈 | <a href="https://txc.qq.com/products/614512" class="to-url" target="_blank">直达链接</a> |
+|                网站                |                             链接                             |
+| :--------------------------------: | :----------------------------------------------------------: |
+|                官网                | <a href="https://pixpinapp.com/" class="to-url" target="_blank">直达链接</a> |
+| Windows \| Mac<br />最新测试版地址 | <a href="https://pixpinapp.com/change-log/1.8.18.html#%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80" class="to-url" target="_blank">直达链接</a> |
+|              使用文档              | <a href="https://pixpinapp.com/start/what-is-pixpin.html" class="to-url" target="_blank">直达链接</a> |
+|              更新日志              | <a href="https://txc.qq.com/products/614512/change-log" class="to-url" target="_blank">直达链接</a> |
 
 一款功能全面且易于使用的截图工具，它不仅能帮助你快速截取所需内容，还提供贴图、标注、文本识别等高级功能。
 
 ![PixPin_界面-min](./assets/PixPin_界面-min.webp)
 
-## 提示
 
-截至当前 (2024-7-19) ，`Mac` 版还未正式发布
-
-公测版可以在这里下载：[PixPin Mac 公测版](https://txc.qq.com/products/614512)
 
 ## 功能
 
@@ -53,3 +50,9 @@ PixPin 的截图功能非常强大，它允许你自由选择截图区域或自�
 6. **截动图，记录操作**
 
 操作演示需要录制成视频？使用 PixPin 的截动图功能，你可以记录屏幕操作并生成动图，同时使用标注工具，让演示更加生动。
+
+
+
+## Pro版
+
+当前（2021-07-19）我没找到在哪里购买，但是作者已经把 Pro 功能给贴出来了，可以在 [PixPin会员](https://pixpinapp.com/start/member-features.html) 查看。
