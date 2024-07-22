@@ -2,6 +2,7 @@ import {DefaultTheme} from "vitepress";
 import imgZipSideBar from "./图片压缩/imgZipSideBar";
 import imgCupSidebar from "./截图/imgCupSidebar";
 import textCardSideBar from "./文字卡片/textCardSideBar";
+import colorSideBar from "./调色板/sideBar";
 
 
 const toolsSideBar: DefaultTheme.SidebarItem[] = [
@@ -9,6 +10,7 @@ const toolsSideBar: DefaultTheme.SidebarItem[] = [
     textCardSideBar,
     imgZipSideBar,
     imgCupSidebar,
+    colorSideBar,
     {
         text: '孤品',
         collapsed: true,
