@@ -68,6 +68,13 @@ export default defineConfig({
                 src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js",
             },
         ],
+        [
+            "meta",
+            {
+                name:'google-site-verification',
+                content:'liPLWRUFewbdty-fo1ydNaVsaPuHAxV3uu9IP536Ujk'
+            }
+        ]
     ],
 
     transformPageData(pageData, ctx) {
