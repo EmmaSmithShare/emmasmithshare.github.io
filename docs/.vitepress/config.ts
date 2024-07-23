@@ -71,11 +71,18 @@ export default defineConfig({
         [
             "meta",
             {
-                name:'google-site-verification',
-                content:'liPLWRUFewbdty-fo1ydNaVsaPuHAxV3uu9IP536Ujk'
+                name: 'google-site-verification',
+                content: 'liPLWRUFewbdty-fo1ydNaVsaPuHAxV3uu9IP536Ujk'
             }
         ]
     ],
+    sitemap: {
+        hostname: 'https://104070.xyz',
+        transformItems(items) {
+            console.log(items)
+            return items
+        },
+    },
 
     transformPageData(pageData, ctx) {
         twitterCard(pageData, ctx);
