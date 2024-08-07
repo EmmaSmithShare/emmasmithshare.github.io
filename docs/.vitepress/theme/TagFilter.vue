@@ -177,9 +177,14 @@ watch(selectedTag, (a) => {
             align-items: center;
 
             .image {
+                min-width: 70px;
+                max-width: 70px;
+                min-height: 70px;
+                max-height: 70px;
                 width: 70px;
                 height: 70px;
                 border-radius: 8px;
+                border: .5px solid var(--vp-c-divider);
             }
 
 
