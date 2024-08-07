@@ -2,7 +2,7 @@
 title: Avatars 开源头像
 titleTemplate: false
 description: 免费、多样化的头像列表，用于为用户的项目增添个性化元素，头像图片来自 Craftwork.design 网站，并且提供了一个 Figma 插件，方便用户安装和使用。
-image: https://cdn.jsdelivr.net/gh/EmmaSmithShare/shareimage/avatars-min.png
+image: https://cdn.jsdelivr.net/gh/EmmaSmithShare/shareimage/avatars-x.png
 tags: 
   - 头像
 ---
