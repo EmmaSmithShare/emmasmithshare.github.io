@@ -88,8 +88,11 @@ watch(selectedTag, (a) => {
                class="post"
                :class="isDark ? 'post-dark' : 'post-light'"
                :href="post.url">
-                <div class="title">{{ post.title }}</div>
-                <span class="excerpt">摘要：{{ post.description ? post.description : '暂无摘要...' }}</span>
+                <img :src="post.image" :alt="post.title" class="image" v-if="post.image"/>
+                <div>
+                    <div class="title">{{ post.title }}</div>
+                    <span class="excerpt">摘要：{{ post.description ? post.description : '暂无摘要...' }}</span>
+                </div>
             </a>
         </div>
     </main>
@@ -164,11 +167,21 @@ watch(selectedTag, (a) => {
         }
 
         .post {
-            display: block;
             //border: .5px solid var(--vp-c-divider);
             border: 1px solid #000;
             border-radius: 8px;
             padding: 15px;
+
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            .image {
+                width: 70px;
+                height: 70px;
+                border-radius: 8px;
+            }
+
 
             .title {
                 display: block;
@@ -178,6 +191,7 @@ watch(selectedTag, (a) => {
             }
 
             .excerpt {
+                display: block;
                 color: var(--vp-c-text-3);
                 font-size: 14px;
                 line-height: 1.4em;
